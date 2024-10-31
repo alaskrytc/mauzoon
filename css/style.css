@@ -213,7 +213,7 @@ a:focus {
   position: unset;
 }
 .slider_section .detail-box {
-  color: #8a05ac;
+  color: #788785;
 }
 .slider_section .detail-box h1 {
   font-size: 3rem;
@@ -329,7 +329,7 @@ a:focus {
   text-transform: uppercase;
 }
 .service_section .box .detail-box a {
-  color: #8a05ac;
+  color: #788785;
   font-weight: 600;
 }
 .service_section .box .detail-box a:hover {
@@ -354,7 +354,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #8a05ac;
+  background-color: #788785;
   color: #ffffff;
 }
 .about_section .heading_container {
@@ -400,7 +400,7 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #8a05ac;
+  border: 5px solid #788785;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -408,7 +408,7 @@ a:focus {
 .why_section .box .img-box img {
   width: 55px;
   height: auto;
-  fill: #8a05ac;
+  fill: #788785;
 }
 .why_section .box h5 {
   font-weight: bold;
@@ -438,7 +438,7 @@ a:focus {
 /*team section */
 .team_section {
   text-align: center;
-  background-color: #8a05ac;
+  background-color: #788785;
   color: #ffffff;
 }
 .team_section .heading_container {
@@ -453,7 +453,7 @@ a:focus {
   overflow: hidden;
   transition: all 0.1s;
   margin-top: 45px;
-  background: linear-gradient(to bottom, #9605bb, #9e06c5);
+  background: linear-gradient(to bottom, #808e8c, #869391);
 }
 .team_section .team_container .box .img-box {
   display: flex;
@@ -529,7 +529,7 @@ a:focus {
   padding: 75px 25px 25px 25px;
 }
 .client_section .box .detail-box i {
-  color: #8a05ac;
+  color: #788785;
   margin-bottom: 10px;
 }
 .client_section .owl-carousel .owl-nav {
@@ -550,12 +550,12 @@ a:focus {
 }
 .client_section .owl-carousel .owl-nav .owl-prev:hover,
 .client_section .owl-carousel .owl-nav .owl-next:hover {
-  color: #8a05ac;
+  color: #788785;
 }
 
 /* client section end */
 .info_section {
-  background-color: #8a05ac;
+  background-color: #788785;
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
@@ -649,7 +649,7 @@ a:focus {
   text-align: center;
 }
 .footer_section p {
-  color: #8a05ac;
+  color: #788785;
   padding: 25px 0;
   margin: 0;
 }
