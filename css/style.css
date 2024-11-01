@@ -439,11 +439,81 @@ a:focus {
   background-color: #4bcb89;
 }
 
+/*Subscriptions section */
+.Subscriptions_section {
+  text-align: center;
+  background-color: #86dcb0;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.Subscriptions_section .heading_container {
+  justify-content: center;
+}
+.Subscriptions_section .heading_container h2 span {
+  color: #788785;
+}
+.Subscriptions_section .Subscriptions_container {
+  padding: 0 15px;
+}
+.Subscriptions_section .Subscriptions_container .box {
+  padding: 35px 0 0 0;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.1s;
+  margin-top: 45px;
+  background-color: #053068;
+}
+.Subscriptions_section .Subscriptions_container .box .img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Subscriptions_section .Subscriptions_container .box .img-box img {
+  width: 120px;
+  border-radius: 100%;
+  border: 5px solid #ffffff;
+}
+.Subscriptions_section .Subscriptions_container .box .detail-box {
+  margin: 25px 45px;
+}
+.Subscriptions_section .Subscriptions_container .box .detail-box h5 {
+  color: #86dcb0;
+  font-weight: 600;
+  position: relative;
+}
+.Subscriptions_section .Subscriptions_container .box .detail-box ul li {
+  color: #ffffff;
+  font-weight: 600;
+}
+.Subscriptions_section .Subscriptions_container .box .detail-box ul li::marker {
+  color: #86dcb0;
+}
+.Subscriptions_section .Subscriptions_container .box .detail-box button {
+  background-color: #86dcb0;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 50px;
+}
+.Subscriptions_section .Subscriptions_container .box .social_box {
+  padding: 10px 45px 20px 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.Subscriptions_section .Subscriptions_container .box .social_box a {
+  color: #ffffff;
+  font-size: 22px;
+}
+.Subscriptions_section .Subscriptions_container .box .social_box a:hover {
+  color: #788785;
+}
+
+/*Subscriptions section end*/
 /*team section */
 .team_section {
   text-align: center;
   background-color: #788785;
   color: #ffffff;
+  margin-top: 50px;
 }
 .team_section .heading_container {
   justify-content: center;
@@ -476,6 +546,12 @@ a:focus {
   color: #86dcb0;
   font-weight: 600;
   position: relative;
+}
+.team_section .team_container .box .detail-box ul {
+  list-style: none;
+}
+.team_section .team_container .box .detail-box ul li {
+  font-weight: 600;
 }
 .team_section .team_container .box .social_box {
   padding: 10px 45px 20px 45px;

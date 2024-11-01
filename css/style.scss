@@ -414,7 +414,9 @@ a:focus {
         text-transform: uppercase;
       }
 
-      p {}
+      p {
+        
+      }
 
       a {
         color: $primary2;
@@ -531,12 +533,102 @@ a:focus {
 
 // end why section
 
+/*Subscriptions section */
+
+.Subscriptions_section {
+  text-align: center;
+  background-color: $primary1;
+  color: $white;
+  margin-top: 50px;
+
+  .heading_container {
+    justify-content: center;
+    h2{
+      span{
+        color: $primary2;
+      }
+    }
+  }
+
+  .Subscriptions_container {
+    padding: 0 15px;
+
+    .box {
+      padding: 35px 0 0 0;
+      border-radius: 5px;
+      overflow: hidden;
+      transition: all .1s;
+      margin-top: 45px;
+      background-color: #053068;
+      // background: linear-gradient(to bottom, lighten($color: $primary2, $amount: 3), lighten($color: $primary2, $amount: 5));
+
+      .img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 120px;
+          border-radius: 100%;
+          border: 5px solid $white;
+        }
+
+      }
+
+      .detail-box {
+        margin: 25px 45px;
+
+        h5 {
+          color: $primary1;
+          font-weight: 600;
+          position: relative;
+        }        
+        ul{
+          // list-style: none;
+          li{
+            color: $white;
+            font-weight: 600;
+            &::marker{
+              color: $primary1;
+            }
+          }
+        }
+        button{
+          background-color: $primary1;
+          padding: 10px 50px;
+          border: none;
+          border-radius: 50px;
+        }
+      }
+
+      .social_box {
+        padding: 10px 45px 20px 45px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          color: $white;
+          font-size: 22px;
+
+          &:hover {
+            color: $primary2;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+/*Subscriptions section end*/
+
 /*team section */
 
 .team_section {
   text-align: center;
   background-color: $primary2;
   color: $white;
+  margin-top: 50px;
 
   .heading_container {
     justify-content: center;
@@ -574,8 +666,14 @@ a:focus {
           color: $primary1;
           font-weight: 600;
           position: relative;
+        }        
+        ul{
+          list-style: none;
+          li{
+            // color: $primary1;
+            font-weight: 600;
+          }
         }
-
       }
 
       .social_box {
