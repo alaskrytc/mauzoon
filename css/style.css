@@ -1,5 +1,9 @@
+@font-face {
+  font-family: "Myfont";
+  src: url("../fonts/Droid.Arabic.Kufi.ttf");
+}
 body {
-  font-family: "DroidSans", "DroidSans-Bold";
+  font-family: "Myfont";
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;

@@ -10,9 +10,12 @@ $textCol: #1f1f1f;
 
 // import fonts - font-family: 'Open Sans', sans-serif;
 // @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
-
+@font-face {
+  font-family: 'Myfont';
+  src: url('../fonts/Droid.Arabic.Kufi.ttf');
+}
 @mixin main-font {
-  font-family: "DroidSans", "DroidSans-Bold";
+  font-family: 'Myfont';
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
