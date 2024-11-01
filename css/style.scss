@@ -168,6 +168,9 @@ a:focus {
     font-weight: bold;
     font-size: 24px;
     color: $white;
+    img{
+      border-radius: 50%;
+    }
   }
 }
 
@@ -498,7 +501,10 @@ a:focus {
       min-width: 120px;
       min-height: 120px;
       border-radius: 100%;
-      border: 5px solid $primary2;
+      border-top: 5px solid $primary2;
+      border-right: 5px solid $primary2;
+      border-bottom: 5px solid $primary1;
+      border-left: 5px solid $primary1;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -585,6 +591,7 @@ a:focus {
         }        
         ul{
           // list-style: none;
+          direction: rtl;
           li{
             color: $white;
             font-weight: 600;

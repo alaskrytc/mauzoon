@@ -121,6 +121,9 @@ a:focus {
   font-size: 24px;
   color: #ffffff;
 }
+.navbar-brand span img {
+  border-radius: 50%;
+}
 
 .custom_nav-container {
   padding: 0;
@@ -404,7 +407,10 @@ a:focus {
   min-width: 120px;
   min-height: 120px;
   border-radius: 100%;
-  border: 5px solid #788785;
+  border-top: 5px solid #788785;
+  border-right: 5px solid #788785;
+  border-bottom: 5px solid #86dcb0;
+  border-left: 5px solid #86dcb0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -480,6 +486,9 @@ a:focus {
   color: #86dcb0;
   font-weight: 600;
   position: relative;
+}
+.Subscriptions_section .Subscriptions_container .box .detail-box ul {
+  direction: rtl;
 }
 .Subscriptions_section .Subscriptions_container .box .detail-box ul li {
   color: #ffffff;
