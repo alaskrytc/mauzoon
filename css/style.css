@@ -467,7 +467,7 @@ a:focus {
   overflow: hidden;
   transition: all 0.1s;
   margin-top: 45px;
-  background-color: #053068;
+  background-color: #8a2be2;
 }
 .Subscriptions_section .Subscriptions_container .box .img-box {
   display: flex;
@@ -487,9 +487,6 @@ a:focus {
   font-weight: 600;
   position: relative;
 }
-.Subscriptions_section .Subscriptions_container .box .detail-box ul {
-  direction: rtl;
-}
 .Subscriptions_section .Subscriptions_container .box .detail-box ul li {
   color: #ffffff;
   font-weight: 600;
@@ -497,11 +494,15 @@ a:focus {
 .Subscriptions_section .Subscriptions_container .box .detail-box ul li::marker {
   color: #86dcb0;
 }
+.Subscriptions_section .Subscriptions_container .box .detail-box ul .through {
+  text-decoration: line-through;
+}
 .Subscriptions_section .Subscriptions_container .box .detail-box button {
   background-color: #86dcb0;
   padding: 10px 50px;
   border: none;
   border-radius: 50px;
+  color: #ffffff;
 }
 .Subscriptions_section .Subscriptions_container .box .social_box {
   padding: 10px 45px 20px 45px;

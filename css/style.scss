@@ -5,6 +5,7 @@ $primary1: #86dcb0;
 // $primary1: #00bbf0;
 $primary2: #788785;
 // $primary2: #00204a;
+// $primary2: #8a2be2;
 
 $textCol: #1f1f1f;
 
@@ -565,7 +566,8 @@ a:focus {
       overflow: hidden;
       transition: all .1s;
       margin-top: 45px;
-      background-color: #053068;
+      // background-color: #053068;
+      background-color: #8a2be2;
       // background: linear-gradient(to bottom, lighten($color: $primary2, $amount: 3), lighten($color: $primary2, $amount: 5));
 
       .img-box {
@@ -591,7 +593,7 @@ a:focus {
         }        
         ul{
           // list-style: none;
-          direction: rtl;
+          // direction: rtl;
           li{
             color: $white;
             font-weight: 600;
@@ -599,12 +601,16 @@ a:focus {
               color: $primary1;
             }
           }
+          .through{
+            text-decoration: line-through;
+          }
         }
         button{
           background-color: $primary1;
           padding: 10px 50px;
           border: none;
           border-radius: 50px;
+          color: $white;
         }
       }
 
