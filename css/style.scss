@@ -189,6 +189,7 @@ a:focus {
         text-transform: uppercase;
         border-radius: 5px;
         transition: all 0.3s;
+        
       }
 
       &:hover,
@@ -206,6 +207,211 @@ a:focus {
     }
   }
 }
+.login{
+  font-family: "Myfont";  
+  background-color: #f4f4f4;          
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  .login-container {
+    background-color: $white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    h2{
+      margin-bottom: 20px;
+    }
+  }
+  .input-group {
+    margin-bottom: 15px;
+
+    input[type="email"],
+    input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+        &[type="email"]:focus,
+        &[type="password"]:focus {
+            border-color: #66afe9;
+            outline: none;
+        }
+    }
+  }
+  input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+
+    &[type="submit"]:hover {
+      background-color: #4cae4c;
+    }
+  }
+  .toggle-link {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #5cb85c;
+
+    a {
+      color: #5cb85c;
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+
+  }
+}
+.register{
+  font-family: "Myfont";
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  .container {
+    background: $white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+  }
+  .input-group {
+    margin-bottom: 15px;
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: border-color 0.3s ease;
+
+      &[type="text"]:focus,
+      &[type="email"]:focus,
+      &[type="password"]:focus {
+          border-color: #66afe9;
+          outline: none;
+      }
+    }
+  }
+  input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+
+    &[type="submit"]:hover {
+      background-color: #4cae4c;
+    }
+  }
+
+  .toggle-link {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #5cb85c;
+
+    a {
+      color: #5cb85c;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.forgot_password{
+  font-family: "Myfont";
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    p{
+      color: gray;
+    }
+    .input-group {
+      margin-bottom: 15px;
+
+      input[type="email"] {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: border-color 0.3s ease;
+
+        &[type="email"]:focus {
+          border-color: #66afe9;
+          outline: none;
+        }
+      }
+    }
+    input[type="submit"] {
+      background-color: #5cb85c;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s ease;
+      &[type="submit"]:hover {
+        background-color: #4cae4c;
+      }
+    }
+  }
+  .toggle-link {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #5cb85c;
+    a{
+      color: #5cb85c;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
 
 .custom_nav-container .nav_search-btn {
   width: 35px;
@@ -216,7 +422,7 @@ a:focus {
 
   &:hover {
     color: $primary1;
-  }
+  }  
 }
 
 .custom_nav-container .navbar-toggler {
@@ -801,6 +1007,7 @@ a:focus {
   background-color: $primary2;
   color: $white;
   padding: 45px 0 15px 0;
+  margin-top: 50px;
 
   h4 {
     font-weight: 600;
