@@ -610,6 +610,12 @@ a:focus {
   color: #ffffff;
   border-radius: 30px;
 }
+.contact_container .info-column a {
+  color: #ffffff;
+}
+.contact_container .info-column a:hover {
+  text-decoration: underline;
+}
 
 .about_section {
   background-color: #788785;

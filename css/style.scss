@@ -710,8 +710,14 @@ a:focus {
     background-color: $primary1;
     color: $white;
     border-radius: 30px;
-  }
 
+    a{
+      color: $white;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 //end contact section
