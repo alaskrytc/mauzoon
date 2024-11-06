@@ -558,6 +558,7 @@ a:focus {
 .contact_container {
   text-align: right;
   display: flex;
+  flex-wrap: wrap;
   max-width: 80%;
   margin: 5% auto;
   padding: 5%;
