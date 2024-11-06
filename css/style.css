@@ -835,6 +835,46 @@ a:focus {
 }
 
 /*team section end*/
+.ourclient {
+  background-color: #86dcb0;
+  color: #86dcb0;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+.ourclient-section {
+  padding: 30px;
+  text-align: center;
+  background-color: #788785;
+  border: 10px;
+}
+.ourclient-section h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+.ourclient-section .client-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.ourclient-section .client-grid .client-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+}
+.ourclient-section .client-grid .client-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.ourclient-section .client-grid .client-card img {
+  width: 150px;
+  height: 70px;
+  border-radius: 8px;
+}
+
 /* client section start */
 .client_section .heading_container {
   margin-bottom: 30px;

@@ -988,6 +988,51 @@ a:focus {
 
 /*team section end*/
 
+// ourclient start 
+.ourclient {
+  background-color: $primary1;
+  color: $primary1;
+  text-align: center;
+  padding: 20px 0;
+  margin-top:50px ;
+  color: $white;
+
+
+}
+.ourclient-section {
+  padding: 30px;
+  text-align: center;
+  background-color: $primary2;
+  border: 10px;
+  h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  .client-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    .client-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      transition: box-shadow 0.3s;
+      &:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+    }
+    .client-card img {
+      width: 150px;
+      height: 70px;
+      border-radius: 8px;
+    } 
+  }
+}
+
+
+// outclinent end 
+
 /* client section start */
 
 .client_section {
