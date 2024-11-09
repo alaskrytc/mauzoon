@@ -203,6 +203,8 @@ a:focus {
 .login .toggle-link a {
   color: #5cb85c;
   text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
 }
 .login .toggle-link a:hover {
   text-decoration: underline;
@@ -272,6 +274,8 @@ a:focus {
 .register .toggle-link a {
   color: #5cb85c;
   text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
 }
 .register .toggle-link a:hover {
   text-decoration: underline;
@@ -336,6 +340,8 @@ a:focus {
 .forgot_password .toggle-link a {
   color: #5cb85c;
   text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
 }
 .forgot_password .toggle-link a:hover {
   text-decoration: underline;
