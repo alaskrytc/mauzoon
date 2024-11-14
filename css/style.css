@@ -561,10 +561,20 @@ a:focus {
   background-color: #4bcb89;
 }
 
+.ourcontuct {
+  text-align: center;
+  margin-top: 50px;
+}
+.ourcontuct span {
+  color: #86dcb0;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
 .contact_container {
   text-align: right;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   max-width: 80%;
   margin: 5% auto;
   padding: 5%;
@@ -575,7 +585,7 @@ a:focus {
 }
 .contact_container .form-column {
   padding: 20px;
-  flex: 1; /* Each column takes equal space */
+  flex: 2;
   margin-right: 20px;
   border-radius: 30px;
   color: #ffffff;
@@ -612,7 +622,7 @@ a:focus {
 }
 .contact_container .info-column {
   padding: 20px;
-  flex: 1;
+  flex: 2;
   background-color: #86dcb0;
   color: #ffffff;
   border-radius: 30px;
@@ -624,6 +634,13 @@ a:focus {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .contact_container {
+    flex-direction: column;
+    max-width: 100%;
+    border-radius: 1px;
+  }
+}
 .about_section {
   background-color: #788785;
   color: #ffffff;
@@ -636,6 +653,9 @@ a:focus {
 }
 .about_section .img-box img {
   max-width: 100%;
+}
+.about_section .detail-box {
+  text-align: right;
 }
 .about_section .detail-box h3 {
   font-weight: bold;

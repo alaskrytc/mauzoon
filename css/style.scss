@@ -630,10 +630,6 @@ a:focus {
         text-transform: uppercase;
       }
 
-      p {
-        
-      }
-
       a {
         color: $primary2;
         font-weight: 600;
@@ -660,11 +656,19 @@ a:focus {
 // end service section
 
 //start contuct secion
-
+.ourcontuct{
+  text-align: center;
+  margin-top: 50px;
+  span {
+    color: $primary1;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+}
 .contact_container {
   text-align: right;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   max-width: 80%;
   margin:5% auto;
   padding: 5%;
@@ -675,7 +679,7 @@ a:focus {
 
   .form-column  {
     padding: 20px;
-    flex: 1; /* Each column takes equal space */
+    flex: 2;
     margin-right: 20px;
     border-radius: 30px;
     color: $white;
@@ -713,7 +717,7 @@ a:focus {
   }
   .info-column{
     padding: 20px;
-    flex: 1;
+    flex: 2;
     background-color: $primary1;
     color: $white;
     border-radius: 30px;
@@ -724,8 +728,14 @@ a:focus {
         text-decoration: underline;
       }
     }
+  }  
+}
+@media (max-width: 768px) {
+  .contact_container {
+      flex-direction: column;
+      max-width: 100%;
+      border-radius: 1px;
   }
-  
 }
 
 //end contact section
@@ -750,6 +760,7 @@ a:focus {
   }
 
   .detail-box {
+    text-align: right;
     h3 {
       font-weight: bold;
     }
