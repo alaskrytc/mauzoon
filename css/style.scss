@@ -207,6 +207,7 @@ a:focus {
     }
   }
 }
+// login 
 .login{
   font-family: "Myfont";  
   background-color: #f4f4f4;          
@@ -275,6 +276,7 @@ a:focus {
 
   }
 }
+// register 
 .register{
   font-family: "Myfont";
   background-color: #f4f4f4;
@@ -349,6 +351,7 @@ a:focus {
     }
   }
 }
+//forgot password
 .forgot_password{
   font-family: "Myfont";
   background-color: #f4f4f4;
@@ -1090,76 +1093,95 @@ a:focus {
 
   .Subscriptions_container {
     padding: 0 15px;
-
-    .box {
-      padding: 35px 0 0 0;
-      border-radius: 5px;
-      overflow: hidden;
-      transition: all .1s;
-      margin-top: 45px;
-      // background-color: #053068;
-      background-color: $primary2;
-      // background: linear-gradient(to bottom, lighten($color: $primary2, $amount: 3), lighten($color: $primary2, $amount: 5));
-
-      .img-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-          width: 120px;
-          border-radius: 100%;
-          border: 5px solid $white;
+    .animtn{
+      opacity: 0; 
+      transform: translateY(20px);
+      animation: asd 0.5s forwards;
+      @keyframes asd {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
         }
-
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
       }
+      &:nth-child(1) { animation-delay: 0.5s; }
+      &:nth-child(2) { animation-delay: 1.5s; }
+      &:nth-child(3) { animation-delay: 2s; } 
+      .box {
+        padding: 35px 0 0 0;
+        border-radius: 10px;
+        overflow: hidden;
+        // transition: all .3s ease;
+        margin-top: 45px;
+        // background-color: #053068;
+        background-color: $primary2;      
 
-      .detail-box {
-        margin: 25px 45px;
-
-        h5 {
-          color: $primary1;
-          font-weight: 600;
-          position: relative;
-        }        
-        ul{
-          // list-style: none;
-          // direction: rtl;
-          li{
-            color: $white;
+  
+        .img-box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          img {
+            width: 120px;
+            border-radius: 100%;
+            border: 5px solid $white;
+          }
+  
+        }
+  
+        .detail-box {
+          margin: 25px 45px;
+  
+          h5 {
+            color: $primary1;
             font-weight: 600;
-            &::marker{
-              color: $primary1;
+            position: relative;
+          }        
+          ul{
+            // list-style: none;
+            // direction: rtl;
+            li{
+              color: $white;
+              font-weight: 600;
+              &::marker{
+                color: $primary1;
+              }
+            }
+            .through{
+              text-decoration: line-through;
             }
           }
-          .through{
-            text-decoration: line-through;
+          button{
+            background-color: $primary1;
+            padding: 10px 50px;
+            border: none;
+            border-radius: 50px;
+            color: $white;
           }
         }
-        button{
-          background-color: $primary1;
-          padding: 10px 50px;
-          border: none;
-          border-radius: 50px;
-          color: $white;
-        }
-      }
-
-      .social_box {
-        padding: 10px 45px 20px 45px;
-        display: flex;
-        justify-content: space-between;
-
-        a {
-          color: $white;
-          font-size: 22px;
-
-          &:hover {
-            color: $primary2;
+  
+        .social_box {
+          padding: 10px 45px 20px 45px;
+          display: flex;
+          justify-content: space-between;
+  
+          a {
+            color: $white;
+            font-size: 22px;
+  
+            &:hover {
+              color: $primary2;
+            }
           }
         }
       }
+
     }
+
   }
 
 
@@ -1244,12 +1266,15 @@ a:focus {
 
 // ourclient start 
 .ourclient {
-  background-color: $primary1;
+  background-color: $primary2;
   color: $primary1;
   text-align: center;
   padding: 20px 0;
   margin-top:50px ;
-  color: $white;
+  color: $primary1;
+  p{
+    color: $white;
+  }
 
 
 }
@@ -1260,7 +1285,7 @@ a:focus {
   border: 10px;
   h2 {
     margin-bottom: 20px;
-    color: white;
+    color: $primary1;
   }
   .client-grid {
     display: grid;
@@ -1378,6 +1403,8 @@ a:focus {
   color: $white;
   padding: 45px 0 15px 0;
   margin-top: 50px;
+  text-align: right;
+  direction: rtl;
 
   h4 {
     font-weight: 600;

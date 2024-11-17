@@ -980,59 +980,82 @@ a:focus {
 .Subscriptions_section .Subscriptions_container {
   padding: 0 15px;
 }
-.Subscriptions_section .Subscriptions_container .box {
+.Subscriptions_section .Subscriptions_container .animtn {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: asd 0.5s forwards;
+}
+@keyframes asd {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.Subscriptions_section .Subscriptions_container .animtn:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.Subscriptions_section .Subscriptions_container .animtn:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.Subscriptions_section .Subscriptions_container .animtn:nth-child(3) {
+  animation-delay: 2s;
+}
+.Subscriptions_section .Subscriptions_container .animtn .box {
   padding: 35px 0 0 0;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
-  transition: all 0.1s;
   margin-top: 45px;
   background-color: #788785;
 }
-.Subscriptions_section .Subscriptions_container .box .img-box {
+.Subscriptions_section .Subscriptions_container .animtn .box .img-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Subscriptions_section .Subscriptions_container .box .img-box img {
+.Subscriptions_section .Subscriptions_container .animtn .box .img-box img {
   width: 120px;
   border-radius: 100%;
   border: 5px solid #ffffff;
 }
-.Subscriptions_section .Subscriptions_container .box .detail-box {
+.Subscriptions_section .Subscriptions_container .animtn .box .detail-box {
   margin: 25px 45px;
 }
-.Subscriptions_section .Subscriptions_container .box .detail-box h5 {
+.Subscriptions_section .Subscriptions_container .animtn .box .detail-box h5 {
   color: #86dcb0;
   font-weight: 600;
   position: relative;
 }
-.Subscriptions_section .Subscriptions_container .box .detail-box ul li {
+.Subscriptions_section .Subscriptions_container .animtn .box .detail-box ul li {
   color: #ffffff;
   font-weight: 600;
 }
-.Subscriptions_section .Subscriptions_container .box .detail-box ul li::marker {
+.Subscriptions_section .Subscriptions_container .animtn .box .detail-box ul li::marker {
   color: #86dcb0;
 }
-.Subscriptions_section .Subscriptions_container .box .detail-box ul .through {
+.Subscriptions_section .Subscriptions_container .animtn .box .detail-box ul .through {
   text-decoration: line-through;
 }
-.Subscriptions_section .Subscriptions_container .box .detail-box button {
+.Subscriptions_section .Subscriptions_container .animtn .box .detail-box button {
   background-color: #86dcb0;
   padding: 10px 50px;
   border: none;
   border-radius: 50px;
   color: #ffffff;
 }
-.Subscriptions_section .Subscriptions_container .box .social_box {
+.Subscriptions_section .Subscriptions_container .animtn .box .social_box {
   padding: 10px 45px 20px 45px;
   display: flex;
   justify-content: space-between;
 }
-.Subscriptions_section .Subscriptions_container .box .social_box a {
+.Subscriptions_section .Subscriptions_container .animtn .box .social_box a {
   color: #ffffff;
   font-size: 22px;
 }
-.Subscriptions_section .Subscriptions_container .box .social_box a:hover {
+.Subscriptions_section .Subscriptions_container .animtn .box .social_box a:hover {
   color: #788785;
 }
 
@@ -1097,11 +1120,14 @@ a:focus {
 
 /*team section end*/
 .ourclient {
-  background-color: #86dcb0;
+  background-color: #788785;
   color: #86dcb0;
   text-align: center;
   padding: 20px 0;
   margin-top: 50px;
+  color: #86dcb0;
+}
+.ourclient p {
   color: #ffffff;
 }
 
@@ -1113,7 +1139,7 @@ a:focus {
 }
 .ourclient-section h2 {
   margin-bottom: 20px;
-  color: white;
+  color: #86dcb0;
 }
 .ourclient-section .client-grid {
   display: grid;
@@ -1208,6 +1234,8 @@ a:focus {
   color: #ffffff;
   padding: 45px 0 15px 0;
   margin-top: 50px;
+  text-align: right;
+  direction: rtl;
 }
 .info_section h4 {
   font-weight: 600;
