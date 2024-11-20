@@ -1011,6 +1011,21 @@ a:focus {
 .Subscriptions_section .Subscriptions_container .row .animtn:nth-child(3) {
   animation-delay: 2s;
 }
+.Subscriptions_section .Subscriptions_container .row .animtn:nth-child(4) {
+  animation-delay: 2.5s;
+}
+.Subscriptions_section .Subscriptions_container .row .animtn:nth-child(5) {
+  animation-delay: 3s;
+}
+.Subscriptions_section .Subscriptions_container .row .animtn:nth-child(6) {
+  animation-delay: 4s;
+}
+.Subscriptions_section .Subscriptions_container .row .animtn:nth-child(7) {
+  animation-delay: 5s;
+}
+.Subscriptions_section .Subscriptions_container .row .animtn:nth-child(8) {
+  animation-delay: 6s;
+}
 .Subscriptions_section .Subscriptions_container .row .animtn .box {
   padding: 35px 0 0 0;
   border-radius: 20px;
