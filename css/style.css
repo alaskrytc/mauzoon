@@ -1069,30 +1069,6 @@ a:focus {
 .Subscriptions_section .Subscriptions_container .row .animtn .box .social_box a:hover {
   color: #788785;
 }
-.Subscriptions_section .sub-add {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.Subscriptions_section .sub-add .box {
-  background-color: #000000;
-  border: 5px solid #86dcb0;
-  border-radius: 40px;
-  margin-top: 50px;
-  padding: 15px;
-  max-width: 28%;
-}
-.Subscriptions_section .sub-add .box .price {
-  color: #86dcb0;
-}
-.Subscriptions_section .sub-add .box button {
-  background-color: #86dcb0;
-  border-radius: 30px;
-  color: #ffffff;
-  padding: 5px 25px;
-}
 
 /*Subscriptions section end*/
 /*team section */
